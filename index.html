@@ -1,0 +1,175 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Halaman Utama - Berita Dunia</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+      *{
+        font-family: 'Poppins', sans-serif;
+      }
+    </style>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-sm bg-light p-1">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html"><img style="height: 40px;" src="images/logo.png" alt=""></a>
+        <form class="d-flex ms-3 me-auto" action="">
+          <input class="form-control me-2" type="text" placeholder="Cari Berita...">
+          <button class="btn btn-warning text" type="button"><i class="bi-search"></i></button>
+        </form>
+        <ul class="navbar-nav">
+          <li class="nav-item ms-4">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item dropdown ms-4">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">Kategori</a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDarkDropdownMenuLink">
+              <li><a class="dropdown-item" href="category.html">Politik</a></li>
+              <li><a class="dropdown-item" href="#">Kriminal</a></li>
+              <li><a class="dropdown-item" href="#">Olahraga</a></li>
+              <li><a class="dropdown-item" href="#">Teknologi</a></li>
+              <li><a class="dropdown-item" href="#">Bisnis</a></li>
+              <li><a class="dropdown-item" href="#">Kesehatan</a></li>
+              <li><a class="dropdown-item" href="#">Luar Negeri</a></li>
+            </ul>
+          </li>
+          <li class="nav-item ms-4">
+            <a class="nav-link" href="about.html">About</a>
+          </li>
+          <li class="nav-item ms-4">
+            <a class="nav-link" href="login.html"><i class="bi-person-fill"></i></a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <div class="container-fluid">
+      <div class="row m-1 mt-3 border border-muted rounded-1 border-2">
+        <div class="col-sm-9 p-3">
+          <a class="text-decoration-none text-dark" href=""><h4 class="fw-bold p-1 text-bg-warning rounded-1 w-50">Headline</h4></a>
+          <div class="carousel-item active">
+            <a href="detail.html"><img class="w-100 rounded-1"src="images/berita-1.jpg" alt=""></a>
+            <div class="carousel-caption">
+              <a class="text-decoration-none text-white-50 link-light" href="detail.html"><h3>Intip Harta Kekayaan Anies Baswedan Usai Pamit dari Kursi Gubernur DKI Jakarta</h3></a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-3 p-3">
+          <a class="text-decoration-none text-dark" href=""><h4 class="fw-bold p-1 text-bg-warning rounded-1 w-50">Trending</h4></a>
+          <div class="news-wrapper mb-3">
+            <a href=""><img class="w-100 rounded-1 mb-1" src="images/berita-2.webp" alt=""></a>
+            <a class="text-decoration-none text-muted link-dark" href=""><h6>Ngaku Tak Bermasalah dengan Klub, Kylian Mbappe Bantah Ingin Tinggalkan PSG</h6></a>
+          </div>
+          <div class="news-wrapper mb-3">
+            <a href=""><img class="w-100 rounded-1 mb-1" src="images/berita-3.jpg" alt=""></a>
+            <a class="text-decoration-none text-muted link-dark" href=""><h6>4 Menu Sarapan agar Anak Cerdas, Orangtua Perlu Catat</h6></a>
+          </div>
+          <div class="news-wrapper mb-3">
+            <a href=""><img class="w-100 rounded-1 mb-1" src="images/berita-4.webp" alt=""></a>
+            <a class="text-decoration-none text-muted link-dark" href=""><h6>Dilarang Jokowi Bawa Ponsel, Istana Jelaskan Soal Kapolda Metro Irjen Fadil Imran Pakai HP</h6></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid">
+      <div class="row mb-3">
+        <div class="col-sm-6 p-3 pe-2">
+          <div class="p-3 wrapper border border-muted rounded-1 border-2">
+            <a class="text-decoration-none text-dark" href=""><h4 class="fw-bold p-1 text-bg-warning rounded-1 w-50">Berita Terbaru</h4></a>
+            <div class="row">
+              <div class="col-sm-6">
+                <div class="news-wrapper mb-3">
+                  <a href=""><img class="w-100 rounded-1 mb-1" src="images/berita-5.webp" alt=""></a>
+                  <a class="text-decoration-none text-muted link-dark" href=""><h6>Apple Didenda Rp 294 Miliar di Brasil karena Tak Jual iPhone dengan Charger</h6></a>
+                </div>
+                <div class="news-wrapper mb-3">
+                  <a href=""><img class="w-100 rounded-1 mb-1" src="images/berita-7.webp" alt=""></a>
+                  <a class="text-decoration-none text-muted link-dark" href=""><h6>Jokowi Lantik Dewan Pengawas dan Anggota BPKH 2022-2027</h6></a>
+                </div>
+                <div class="news-wrapper mb-3">
+                  <a href=""><img class="w-100 rounded-1 mb-1" src="images/berita-9.webp" alt=""></a>
+                  <a class="text-decoration-none text-muted link-dark" href=""><h6>Kereta Cepat Jakarta-Bandung Bakal Diberi Nama Jamparing?</h6></a>
+                </div>
+                <div class="news-wrapper mb-3">
+                  <a href=""><img class="w-100 rounded-1 mb-1" src="images/berita-11.webp" alt=""></a>
+                  <a class="text-decoration-none text-muted link-dark" href=""><h6>Hacker Serang 14 Situs Bandara AS, Diduga Ulah Rusia</h6></a>
+                </div>
+              </div>
+              <div class="col-sm-6">
+                <div class="news-wrapper mb-3">
+                  <a href=""><img class="w-100 rounded-1 mb-1" src="images/berita-6.webp" alt=""></a>
+                  <a class="text-decoration-none text-muted link-dark" href=""><h6>Hasil Liga Spanyol Real Madrid vs Barcelona: Los Blancos Menangi El Clasico</h6></a>
+                </div>
+                <div class="news-wrapper mb-3">
+                  <a href=""><img class="w-100 rounded-1 mb-1" src="images/berita-8.webp" alt=""></a>
+                  <a class="text-decoration-none text-muted link-dark" href=""><h6>Cegah Pembebasan Ferdy Sambo, Pengacara Brigadir J Akan Kawal Terus Persidangan</h6></a>
+                </div>
+                <div class="news-wrapper mb-3">
+                  <a href=""><img class="w-100 rounded-1 mb-1" src="images/berita-10.webp" alt=""></a>
+                  <a class="text-decoration-none text-muted link-dark" href=""><h6>Impor Indonesia Turun 10,58 Persen di September 2022 Berkat Baja dan Minyak</h6></a>
+                </div>
+                <div class="news-wrapper mb-3">
+                  <a href=""><img class="w-100 rounded-1 mb-1" src="images/berita-12.webp" alt=""></a>
+                  <a class="text-decoration-none text-muted link-dark" href=""><h6>Ide Elon Musk Akhiri Konflik Taiwan-China, Apa Itu?</h6></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6 p-3 ps-2">
+          <div class="p-3 wrapper border border-muted rounded-1 border-2">
+            <a class="text-decoration-none text-dark" href=""><h4 class="fw-bold p-1 text-bg-warning rounded-1 w-50">Berita Viral</h4></a>
+            <div class="news-wrapper mb-3">
+              <a href=""><img class="w-100 rounded-1 mb-1" src="images/berita-13.webp" alt=""></a>
+              <a class="text-decoration-none text-muted link-dark" href=""><h5>Infografis Daftar 130 Nama Korban Meninggal Tragedi Kanjuruhan Malang</h5></a>
+            </div>
+            <div class="news-wrapper mb-3">
+              <a href=""><img class="w-100 rounded-1 mb-1" src="images/berita-14.webp" alt=""></a>
+              <a class="text-decoration-none text-muted link-dark" href=""><h5>Saat 4 Bos Judi Online yang Masuk dalam DPO Ditangkap</h5></a>
+            </div>
+            <div class="news-wrapper mb-3">
+              <a href=""><img class="w-100 rounded-1 mb-1" src="images/berita-15.webp" alt=""></a>
+              <a class="text-decoration-none text-muted link-dark" href=""><h5>Jelang Sidang Sambo, Begini Situasi PN Jakarta Selatan</h5></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <nav class="navbar navbar-expand-sm bg-light p-3">
+      <div class="container-fluid">
+        <img style="height: 60px;" src="images/logo.png" alt="">
+        <div class="footer-center ms-auto">
+          <ul class="navbar-nav">
+            <li class="nav-item ms-4">
+              <p class="fw-bold nav-link text-muted">Our Social Media</p>
+            </li>
+            <li class="nav-item ms-4">
+              <a class="nav-link" href=""><i class="bi-facebook"></i></a>
+            </li>
+            <li class="nav-item ms-4">
+              <a class="nav-link" href=""><i class="bi-instagram"></i></a>
+            </li>
+            <li class="nav-item ms-4">
+              <a class="nav-link" href=""><i class="bi-twitter"></i></a>
+            </li>
+            <li class="nav-item ms-4">
+              <a class="nav-link" href=""><i class="bi-youtube"></i></a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer-right ms-auto">
+          <p class="m-0 fw-bold text-muted"><i class="bi-envelope"></i> Contact</p>
+          <p class="m-0 text-muted">beritadunia@mail.com</p>
+          <p class="m-0 text-muted">(+62)89668599925</p>
+        </div>
+      </div>
+    </nav>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js" integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+  </body>
+</html>
